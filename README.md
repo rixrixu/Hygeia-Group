@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hygeia Group</title>
+    <style>
+        body {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #78c8f6;
+            color: #fdfdfd;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #f2f2f2;
+            padding: 10px;
+            text-align:justify;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+
+        nav ul li a {
+            color: #aac7d8;
+            text-decoration: none;
+        }
+
+        .container {
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .card {
+            background-color: #afdefd;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 20px;
+            width: 45%;
+        }
+
+        .footer {
+            background-color: #70bae6;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        form input {
+            margin-bottom: 10px;
+        }
+
+        form button {
+            background-color: #aac7d8;
+            color: white;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="logo11.png" style="float: center;" height="120" width="120">,<h1>Hygeia Group</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Our Product</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="card"><img src="telagow.png" height="200" width="200" >
+            <h2>Telago</h2> 
+            <p>Perpaduan Telang dan Sago yang dikemas dan dipadukan dalam minuman khas kekinian dengan berbagai macam manfaat untuk kesehatan </p>
+        </div>
+
+        <div class="card">
+            <h2>Sign Up</h2>
+            <form>
+                <input type="email" placeholder="Email">
+                <button type="submit">Sign Up</button>
+            </form>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>Instagram: @Hygeiagroup</p>
+        <p>Copyright &copy; 2022. All rights reserved.</p>
+    </footer>
+</body>
+</html>
